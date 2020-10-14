@@ -3,7 +3,7 @@ let scl = 20;
 let food;
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(400, 400);
   s = new Snake();
   frameRate(10);
   pickLocation();
